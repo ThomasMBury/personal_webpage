@@ -1,0 +1,14 @@
+
+
+DRAFT 1
+
+I am an applied mathematician, fascinated by complex systems and their nonintuitive behaviour. Ecosystems, weather patterns, social and financial networks (to name a few), are examples of such systems, demonstrating a highly complex structure with diverse underlying mechanisms. Embedded within these structures lie positive feedbacks (akin to coiled springs), held at bay only within certain parameter regions. Changing external conditions  (harvesting, global warming, human behaviour etc.) can result in a system traversing outside of these regions, inducing a so-called ‘critical transition’. Qualitatively speaking this is an abrupt shift to a highly contrasting system state, for better or for worse…
+
+
+
+DRAFT 2
+
+I am an applied mathematician, pursuing doctoral studies at the University of Waterloo alongside my co-advisors Prof Chris Bauch and Prof Madhur Anand. 
+
+My research focuses broadly on the modelling of complex systems, particularly those that possess tipping points. Disease outbreak, collapse of fisheries and runaway climate change are all examples of systems surpassing a tipping point and transitioning into an alternate stable state - one that can be very difficult to get back from. Mathematical models allow us to capture the feedbacks that give rise to these tipping points, and so can advise on optimal intervention strategies. Statistical techniques using time-series / spatial data can be used to compare resilience across a class of systems, and warn us of impending tipping points. For more information, please visit my Research page or get in touch. I welcome collaborative efforts across all fields.
+

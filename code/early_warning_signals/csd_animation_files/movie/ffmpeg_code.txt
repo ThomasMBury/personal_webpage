@@ -1,0 +1,7 @@
+
+% rate, input, pixel format
+
+
+
+ffmpeg -r 20 -i frame%04d.png -pix_fmt yuv420p -vf "scale=trunc(iw/2)*2:trunc(ih/2)*2" ../fold1_dyndays.mov
+

@@ -1,0 +1,24 @@
+# 1D harvesting model possessing fold bifurcation
+
+# Dynamics
+dx/dt= r*x*(1-x) - h*x^2/(x^2 + s^2)
+
+
+# parameters
+par h=0
+par r=1
+par s=0.1
+
+
+
+# initial conditions
+x(0)=0.5
+
+@ xp=t,yp=x,xlo=0,xhi=10,ylo=0,yhi=1.5, bell=0
+@ total=100, dt=0.01, maxstor=2000000,bounds=1000000
+@ ntst=150, npr=500, nmax=2000, ds=0.01, dsmin=0.001, dsmax=0.02, ncol=5
+@ parmin=0, parmax=0.8, epsl=0.000001, epsu=0.000001, epss=0.000001 
+@ AUTOXMIN=-0.1, AUTOXMAX=0.6, AUTOYMIN=0, AUTOYMAX=1.2
+
+
+done

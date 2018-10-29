@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Thomas Bury</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="main.css">
+  <link rel="icon" href="images/uwat.png">
+</head>
+
+<body>
+
+  <header>
+    <div class="math-header">  <h1> <a href="index.html" style="color:white"> Thomas Bury </a></h1> </div>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+		  <span class="icon-bar"></span>
+		  <span class="icon-bar"></span>
+		  <span class="icon-bar"></span>                        
+		</button>
+		<div class="collapse navbar-collapse" id="myNavbar">
+		  <ul class="nav navbar-nav">
+			<li><a href="index.html">About</a></li>
+			<li><a href="research.html">Research</a></li>
+			<li><a href="talks.html">Talks</a></li>
+			<li><a href="teaching.html">Teaching</a></li>
+			<li><a href="tutoring.html">Tutoring</a></li>
+			<li><a href="animations.html" style="color:black">Animations</a></li>
+			<li><a href="code.html">Code</a></li>
+			<li><a href="music.html">Music</a></li>
+		  </ul>
+		  <ul class="nav navbar-nav navbar-right">
+		  	<li><a href="contact.html"> Contact</a></li>
+			<li><a href="documents/thomas_bury.pdf" target="_blank"> CV</a></li>
+		  </ul>
+		</div>
+	  </div>
+    </nav>
+  </header>
+ 
+  <div class="container-fluid text-center">    
+    <div class="row content">
+	  <div class="col-sm-1 sidenav"></div>
+      <div class="col-sm-10 text-left padding">
+
+	    <h3> Illustration of Critical Slowing Down </h3>
+		<p> Critical slowing down is a phenomena that occurs in dynamical systems as a local bifurcation is approached. It is manifested as an increase in variance and temporal correlation of system fluctuations, and can serve as a warning signal of imminent system collapse. Below is a simulation of a generic bistable model to illustrate this process.</p>
+		<div class="animation-container-csd">
+		  <video width=100% controls>
+		  <source src="documents/animations/fold2.mp4" type="video/mp4">
+		  Your browser does not support the video tag.
+		  </video>	
+		</div>	
+		<p> <b>a</b>  Bifurcation diagram the stable (solid) and unstable (dashed) states of the system for some given value of the control parameter h.<br> <b>b</b>  Time-series of a single stochastic realisation with the control parameter h varying as shown by the green line in 'a'.<br> <b>c</b>  Potential landscape of the system. The ball represents the state, and the forcing is proportional to the slope of the landscape making valleys stable states and hills unstable states. <br> <b>d</b>  Autocorrelation and variance measured directly from the time-series in 'b' over a rolling window. Both metrics increase as the bifurcation is approached, providing warning of a loss in resilience.</p><br><br><br><br><hr>
+		
+		<h3> Behaviour-Disease Dynamics on a Multiplex Network </h3>
+		<p> Using a multiplex network allows disease and behavioural patterns to spread on different network structures. Communication technology results in social networks that are very different to physical contact networks, making multiplex networks a useful tool for understanding disease outbreak of a vaccine-preventable disease such as flu, in a population that communicates vaccination incentive via a social network. </p><br>
+		<p> <b> Identical social and physical links </b> </p>
+		<p> In the case where social links are identical to 'physical contact' links, pockets of non-vaccinators form in physical space resulting in prolonged disease outbreak. </p>
+		<div class="animation-container-multiplex">
+		  <video width=100% controls>
+		  <source src="documents/animations/movie_equalSocial_sigma0.mp4" type="video/mp4">
+		  Your browser does not support the video tag.
+		  </video>
+		</div>
+		<br>
+		  
+		<p> <b> Randomised social links </b> </p>
+		<p> At the other extreme where social links are chosen independently of contact links, the disease is suppressed at a faster rate, due to the wider spreading of information across the lattice. However, during 'vaccine scares' where influential propaganda against vaccines is released into the social network, having social links traversing the entire network has more severe consequences. Communication technology is really a double-edged sword when it comes to suppression and eradication of vaccine-preventable diseases. </p>
+		<div class="animation-container-multiplex">
+		  <video width=100% controls>
+		  <source src="documents/animations/movie_equalSocial_sigma1.mp4" type="video/mp4">
+		  Your browser does not support the video tag.
+		  </video>
+	    </div>
+		<br><br><br><br><br>
+		
+		
+		<h3> Data Visualisation of the 2009 Influenza Outbreak </h3>
+		<p> The area of each point is proportional to the number of new infections at a given location.</p><br><br>
+		 
+		<div class="animation-container">
+		  <video width=100% controls>
+		  <source src="documents/animations/movie_influenza.mp4" type="video/mp4">
+		  Your browser does not support the video tag.
+		  </video>	
+		</div>
+			
+	  </div>
+	  
+	  <div class="col-sm-1 sidenav"></div>     
+    </div>
+  </div>
+
+  <footer class="container-fluid">
+  	<div class="col-sm-2"></div>
+  	<div class="col-sm-8">
+	  <a href="https://twitter.com/ThomasMBury" target="_blank"> <img src="images/twitter.png" class="icon"  ></a>&nbsp&nbsp&nbsp
+	  <a href="https://www.linkedin.com/in/tom-bury/" target="_blank"> <img src="images/linkedin.png" class="icon"></a>&nbsp&nbsp&nbsp
+	  <a href="https://scholar.google.ca/citations?user=qAp4KBYAAAAJ&hl=en" target="_blank"> <img src="images/gscholar.png" class="icon"></a>&nbsp&nbsp&nbsp
+	  <a href="https://www.researchgate.net/profile/Thomas_Bury" target="_blank"> <img src="images/research_gate.jpg" class="icon"></a>&nbsp&nbsp&nbsp
+      <a href="https://orcid.org/0000-0003-1595-9444" target="orcid.widget" rel="noopener noreferrer"><img src="images/orcid.jpg" class="icon"></a>
+    </div>
+    <div class="col-sm-2">
+    <!-- <p style="color:darkgrey; font-size:9pt"> <br> &copy Stephanie Lee &nbsp</p> -->
+    </div>	
+  </footer>
+
+
+</body>
+</html>

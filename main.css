@@ -1,0 +1,297 @@
+/* unvisited link */
+a:link {
+  color: green;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: green;
+  text-decoration: none;
+}
+
+/* selected link */
+a:active {
+  color: green;
+}
+  
+.img-profile {
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.mytext {
+ padding-top:5%;
+ line-height:200%;
+}
+
+.myheader {
+  padding-left:8%;
+  /*background-image: url("images/math_2.jpeg");*/
+}
+
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+.navbar {
+ margin-top: 0;
+ margin-bottom: 0;
+ border-radius: 0;
+ padding-top: 0;
+ padding-left:5%;
+ padding-right:6%;
+ color: #FFFFFF;
+ background-color: #FFFFF;
+ border-color: transparent;
+}
+
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+.row.content {
+ height: 450px;
+ font-family:"tahoma";
+ font-size: 15px;
+}
+
+/* Set gray background color and 100% height */
+.sidenav {
+ height: 100%;
+}
+
+/* Set black background color, white text and some padding */
+footer {
+ background-color: #f1f1f1;
+ color: white;
+ padding: 20px;
+ text-align: center;
+}
+.padding-profile-page {
+ padding-top: 40px;
+ padding-bottom: 5%;
+ padding-right: 2%;
+ padding-left: 2%;
+}
+.padding {
+ padding-top: 40px;
+ padding-bottom: 5%;
+ padding-right: 5%;
+ padding-left: 5%;
+}
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+ .sidenav {
+  height: auto;
+  padding: 10px;
+ }
+ .row.content {
+   height:auto;
+  }
+}
+
+.icon {
+ display: inline-block
+ text-align: center;
+ border-radius: 50%;
+ width:40px;
+ opacity: .8
+}
+
+.img-right {
+ margin-right:30px;
+ height: 240px;
+ width: 240px;
+ float: left;
+ border-radius: 5%;
+
+}
+
+.img-colloq {
+ margin-right:30px;
+ width: 300px;
+ float: left;
+ border-radius: 0%;
+ border: 1px solid black
+
+}
+
+
+
+.img-right-border {
+ margin-right:30px;
+ height: 240px;
+ width: 240px;
+ float: left;
+ border-radius: 5%;
+ border: 2px solid black
+
+}
+
+.img-paper {
+ margin-right:15px;
+ width: 200px;
+ float: left;
+ border-radius: 0%;
+ border-style: solid;
+ border-width:1px;
+ height: 250px;
+}
+
+
+.img-scroll {
+ margin-right:15px;
+ width: 50px;
+ float: left;
+ border-radius: 0%;
+ 
+}
+.research-div {
+  clear: both;
+  padding-top: 10px;
+  padding-bottom: 75px;
+  /*border-style: solid;*/
+  vertical-align: left;
+  height: auto;
+}
+
+
+.quotation-div {
+  clear: both;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  font-style: italic;
+  font-size: 15px;
+  font-family: Helvetica;
+  text-align: center;
+  vertical-align: center;
+  height: auto;
+}
+
+.soundcloud-div {
+  clear: both;
+  padding-top: 20px;
+  padding-bottom: 60px;
+  vertical-align: center;
+  height: auto;
+}
+
+.publications-div {
+  clear: both;
+  padding-top: 5px;
+  padding-bottom: 80px;
+  /*border-style: solid;*/
+  vertical-align: left;
+  height: 320px;
+}
+
+.academic-works-div {
+  clear: both;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  /*border-style: solid;*/
+  vertical-align: left;
+}
+
+
+.math-header {
+  background-image: url("images/math_2.jpeg");
+  background-repeat: repeat;
+  margin-top: 0;
+  padding-top: 0;
+  padding-left:8%;
+  color: white;
+  border-color:black;
+  border-style:solid;
+}
+
+.full-width {
+  width:100%;
+  height: 100%;
+  border-style: solid;
+}
+
+
+.video {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding-bottom:56%;
+    padding-top:0px;
+}
+
+.animation-container-csd {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 75%;
+    padding-top:0%;
+}
+
+.animation-container-multiplex {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 85%;
+    padding-top:0%;
+}
+
+.gradtalks-container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom:52%;
+}
+
+blockquote {
+ font-style: italic;
+ font-size: 12pt;
+}
+
+.padding-bottom{
+  padding-bottom: 5%;
+}
+
+ul {
+  margin-top: 10px;
+}
+
+
+/* for grid of images */
+.row-grid {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column-grid {
+  flex: 50%;
+  padding: 0 5px;
+}
+
+.column-grid img {
+  margin-top: 10px;
+  vertical-align: middle;
+}
+
+.img-grid {
+ margin-right:15px;
+ width: 100%;
+ float: left;
+}
+
+
+
+
