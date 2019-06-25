@@ -103,6 +103,7 @@ footer {
 
 .img-right {
  margin-right:30px;
+ margin-bottom:100px;
  height: 240px;
  width: 240px;
  float: left;
@@ -133,6 +134,7 @@ footer {
 
 .img-paper {
  margin-right:15px;
+ margin-bottom:10px;
  width: 200px;
  float: left;
  border-radius: 0%;
@@ -185,7 +187,7 @@ footer {
   padding-bottom: 80px;
   /*border-style: solid;*/
   vertical-align: left;
-  height: 320px;
+  height: auto;
 }
 
 .academic-works-div {
