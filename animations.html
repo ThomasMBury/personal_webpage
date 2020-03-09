@@ -50,12 +50,13 @@
 
 		<h3> Modulated parasystole: interaction with a simple model </h3>
         <div class="research-div">
-		  <a href="https://modulated-parasystole.herokuapp.com/" class="img-right" target="_blank"> <img src="images/mp_screenshot.png" class="img-right"></a>
-		  <p> Click the image to interact with the model. </p>
-		  <br><br><br><br><br><br><br><br><br><br><br><br>
+		  <a href="https://modulated-parasystole.herokuapp.com/" class="img-right" target="_blank"> <img src="images/mp_screenshot.png" class="img-right"></a>	
+		  <p> In cardiology, parasystole refers to a pathological condition where an ectopic focus competes with the SA node for control of the heart. In the case where the phase of the sinus beat affects the period of the ectopic focus, the situation is referred to as modulated parasystole. The web app provided here (click the image) allows the user to run simulations of a simple model for modulated parasystole, whilst varying physiological parameters. As well as showing the time series of beat intervals, certain statistics and distributions are computed and displayed. The dynamics that can occur are extremely diverse, but obey some elegant rules, as discovered in early papers such as <a href="https://www.ncbi.nlm.nih.gov/pubmed/3766761" target="_blank"> Glass et al. (1986)</a> and <a href="https://www.ncbi.nlm.nih.gov/pubmed/2764150" target="_blank"> Courtemanche et al. (1989)</a>.  </p>
+		  <p> The app is built using Plotly's <a href="https://plot.ly/dash/" target="_blank"> Dash</a>, which allows one to create interactive web applications from Python code. The app is made accessible through deployment on <a href="https://dashboard.heroku.com" target="_blank"> Heroku</a>. I have made the code available at this <a href="https://github.com/ThomasMBury/app-modulated-parasystole" target="_blank">Github repository</a>. </p>
+		  <br><br><br><br><hr>
 	    </div>
 
-
+	
 	    <h3> Illustration of Critical Slowing Down </h3>
 		<p> Critical slowing down is a phenomena that occurs in dynamical systems as a local bifurcation is approached. It is manifested as an increase in variance and temporal correlation of system fluctuations, and can serve as a warning signal of imminent system collapse. Below is a simulation of a generic bistable model to illustrate this process.</p>
 		<div class="animation-container-csd">
