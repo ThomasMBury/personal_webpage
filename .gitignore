@@ -1,3 +1,4 @@
 code
 *.nb
 code/climate_modelling/sim_files/*.nb
+.DS_Store
