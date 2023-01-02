@@ -1,122 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <title>Thomas Bury</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="main.css">
-  <link rel="icon" href="images/mcgill_crest.png">
+	<title>Thomas Bury</title>
+	<meta http-equiv="refresh" content="0; url = https://www.thomasbury.net/" />
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="main.css">
+	<link rel="icon" href="images/mcgill_crest.png">
 </head>
 
 <body>
 
-  <header>
-    <div class="math-header">  <h1> <a href="index.html" style="color:white"> Thomas Bury </a></h1> </div>
-    <nav class="navbar navbar-default">
-      <div class="container-fluid">
-		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-		  <span class="icon-bar"></span>
-		  <span class="icon-bar"></span>
-		  <span class="icon-bar"></span>                        
-		</button>
-		<div class="collapse navbar-collapse" id="myNavbar">
-		  <ul class="nav navbar-nav">
-			<li><a href="index.html">About</a></li>
-			<li><a href="research.html">Research</a></li>
-			<li><a href="publications.html">Publications</a></li>
-			<li><a href="talks.html">Talks</a></li>
-			<li><a href="teaching.html">Teaching</a></li>
-			<li><a href="animations.html" style="color:black">Animations</a></li>
-			<li><a href="code.html">Code</a></li>
-			<li><a href="music.html">Music</a></li>
-		  </ul>
-		  <ul class="nav navbar-nav navbar-right">
-		  	<li><a href="contact.html"> Contact</a></li>
-			<li><a href="documents/thomas_bury_cv.pdf" target="_blank"> CV</a></li>
-		  </ul>
+	<header>
+		<div class="math-header">
+			<h1> <a href="index.html" style="color:white"> Thomas Bury </a></h1>
 		</div>
-	  </div>
-    </nav>
-  </header>
- 
-  <div class="container-fluid text-center">    
-    <div class="row content">
-	  <div class="col-sm-1 sidenav"></div>
-      <div class="col-sm-10 text-left padding">
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="myNavbar">
+					<ul class="nav navbar-nav">
+						<li><a href="index.html">About</a></li>
+						<li><a href="research.html">Research</a></li>
+						<li><a href="publications.html">Publications</a></li>
+						<li><a href="talks.html">Talks</a></li>
+						<li><a href="teaching.html">Teaching</a></li>
+						<li><a href="animations.html" style="color:black">Animations</a></li>
+						<li><a href="code.html">Code</a></li>
+						<li><a href="music.html">Music</a></li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="contact.html"> Contact</a></li>
+						<li><a href="documents/thomas_bury_cv.pdf" target="_blank"> CV</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
 
-		<h3> Modulated parasystole: interaction with a simple model </h3>
-        <div class="research-div">
-		  <a href="https://modulated-parasystole.herokuapp.com/" class="img-right" target="_blank"> <img src="images/mp_screenshot.png" class="img-right"></a>	
-		  <p> In cardiology, parasystole refers to a pathological condition where an ectopic focus competes with the SA node for control of the heart. In the case where the phase of the sinus beat affects the period of the ectopic focus, the situation is referred to as modulated parasystole. The web app provided here (click the image) allows the user to run simulations of a simple model for modulated parasystole, whilst varying physiological parameters. As well as showing the time series of beat intervals, certain statistics and distributions are computed and displayed. The dynamics that can occur are extremely diverse, but obey some elegant rules, as discovered in early papers such as <a href="https://www.ncbi.nlm.nih.gov/pubmed/3766761" target="_blank"> Glass et al. (1986)</a> and <a href="https://www.ncbi.nlm.nih.gov/pubmed/2764150" target="_blank"> Courtemanche et al. (1989)</a>.  </p>
-		  <p> The app is built using Plotly's <a href="https://plot.ly/dash/" target="_blank"> Dash</a>, which allows one to create interactive web applications from Python code. The app is made accessible through deployment on <a href="https://dashboard.heroku.com" target="_blank"> Heroku</a>. I have made the code available at this <a href="https://github.com/ThomasMBury/app-modulated-parasystole" target="_blank">Github repository</a>. </p>
-		  <br><br><br><br><hr>
-	    </div>
+	<div class="container-fluid text-center">
+		<div class="row content">
+			<div class="col-sm-1 sidenav"></div>
+			<div class="col-sm-10 text-left padding">
 
-	
-	    <h3> Illustration of Critical Slowing Down </h3>
-		<p> Critical slowing down is a phenomena that occurs in dynamical systems as a local bifurcation is approached. It is manifested as an increase in variance and temporal correlation of system fluctuations, and can serve as a warning signal of imminent system collapse. Below is a simulation of a generic bistable model to illustrate this process.</p>
-		<div class="animation-container-csd">
-		  <video width=100% controls>
-		  <source src="documents/animations/fold2.mp4" type="video/mp4">
-		  Your browser does not support the video tag.
-		  </video>	
-		</div>	
-		<p> <b>a</b>  Bifurcation diagram the stable (solid) and unstable (dashed) states of the system for some given value of the control parameter h.<br> <b>b</b>  Time-series of a single stochastic realisation with the control parameter h varying as shown by the green line in 'a'.<br> <b>c</b>  Potential landscape of the system. The ball represents the state, and the forcing is proportional to the slope of the landscape making valleys stable states and hills unstable states. <br> <b>d</b>  Autocorrelation and variance measured directly from the time-series in 'b' over a rolling window. Both metrics increase as the bifurcation is approached, providing warning of a loss in resilience.</p><br><br><br><br><hr>
-		
-		<h3> Behaviour-Disease Dynamics on a Multiplex Network </h3>
-		<p> Using a multiplex network allows disease and behavioural patterns to spread on different network structures. Communication technology results in social networks that are very different to physical contact networks, making multiplex networks a useful tool for understanding disease outbreak of a vaccine-preventable disease such as flu, in a population that communicates vaccination incentive via a social network. </p><br>
-		<p> <b> Identical social and physical links </b> </p>
-		<p> In the case where social links are identical to 'physical contact' links, pockets of non-vaccinators form in physical space resulting in prolonged disease outbreak. </p>
-		<div class="animation-container-multiplex">
-		  <video width=100% controls>
-		  <source src="documents/animations/movie_equalSocial_sigma0.mp4" type="video/mp4">
-		  Your browser does not support the video tag.
-		  </video>
+				<h3> Modulated parasystole: interaction with a simple model </h3>
+				<div class="research-div">
+					<a href="https://modulated-parasystole.herokuapp.com/" class="img-right" target="_blank"> <img
+							src="images/mp_screenshot.png" class="img-right"></a>
+					<p> In cardiology, parasystole refers to a pathological condition where an ectopic focus competes
+						with the SA node for control of the heart. In the case where the phase of the sinus beat affects
+						the period of the ectopic focus, the situation is referred to as modulated parasystole. The web
+						app provided here (click the image) allows the user to run simulations of a simple model for
+						modulated parasystole, whilst varying physiological parameters. As well as showing the time
+						series of beat intervals, certain statistics and distributions are computed and displayed. The
+						dynamics that can occur are extremely diverse, but obey some elegant rules, as discovered in
+						early papers such as <a href="https://www.ncbi.nlm.nih.gov/pubmed/3766761" target="_blank">
+							Glass et al. (1986)</a> and <a href="https://www.ncbi.nlm.nih.gov/pubmed/2764150"
+							target="_blank"> Courtemanche et al. (1989)</a>. </p>
+					<p> The app is built using Plotly's <a href="https://plot.ly/dash/" target="_blank"> Dash</a>, which
+						allows one to create interactive web applications from Python code. The app is made accessible
+						through deployment on <a href="https://dashboard.heroku.com" target="_blank"> Heroku</a>. I have
+						made the code available at this <a
+							href="https://github.com/ThomasMBury/app-modulated-parasystole" target="_blank">Github
+							repository</a>. </p>
+					<br><br><br><br>
+					<hr>
+				</div>
+
+
+				<h3> Illustration of Critical Slowing Down </h3>
+				<p> Critical slowing down is a phenomena that occurs in dynamical systems as a local bifurcation is
+					approached. It is manifested as an increase in variance and temporal correlation of system
+					fluctuations, and can serve as a warning signal of imminent system collapse. Below is a simulation
+					of a generic bistable model to illustrate this process.</p>
+				<div class="animation-container-csd">
+					<video width=100% controls>
+						<source src="documents/animations/fold2.mp4" type="video/mp4">
+						Your browser does not support the video tag.
+					</video>
+				</div>
+				<p> <b>a</b> Bifurcation diagram the stable (solid) and unstable (dashed) states of the system for some
+					given value of the control parameter h.<br> <b>b</b> Time-series of a single stochastic realisation
+					with the control parameter h varying as shown by the green line in 'a'.<br> <b>c</b> Potential
+					landscape of the system. The ball represents the state, and the forcing is proportional to the slope
+					of the landscape making valleys stable states and hills unstable states. <br> <b>d</b>
+					Autocorrelation and variance measured directly from the time-series in 'b' over a rolling window.
+					Both metrics increase as the bifurcation is approached, providing warning of a loss in resilience.
+				</p><br><br><br><br>
+				<hr>
+
+				<h3> Behaviour-Disease Dynamics on a Multiplex Network </h3>
+				<p> Using a multiplex network allows disease and behavioural patterns to spread on different network
+					structures. Communication technology results in social networks that are very different to physical
+					contact networks, making multiplex networks a useful tool for understanding disease outbreak of a
+					vaccine-preventable disease such as flu, in a population that communicates vaccination incentive via
+					a social network. </p><br>
+				<p> <b> Identical social and physical links </b> </p>
+				<p> In the case where social links are identical to 'physical contact' links, pockets of non-vaccinators
+					form in physical space resulting in prolonged disease outbreak. </p>
+				<div class="animation-container-multiplex">
+					<video width=100% controls>
+						<source src="documents/animations/movie_equalSocial_sigma0.mp4" type="video/mp4">
+						Your browser does not support the video tag.
+					</video>
+				</div>
+				<br>
+
+				<p> <b> Randomised social links </b> </p>
+				<p> At the other extreme where social links are chosen independently of contact links, the disease is
+					suppressed at a faster rate, due to the wider spreading of information across the lattice. However,
+					during 'vaccine scares' where influential propaganda against vaccines is released into the social
+					network, having social links traversing the entire network has more severe consequences.
+					Communication technology is really a double-edged sword when it comes to suppression and eradication
+					of vaccine-preventable diseases. </p>
+				<div class="animation-container-multiplex">
+					<video width=100% controls>
+						<source src="documents/animations/movie_equalSocial_sigma1.mp4" type="video/mp4">
+						Your browser does not support the video tag.
+					</video>
+				</div>
+				<br><br><br><br><br>
+
+
+				<h3> Data Visualisation of the 2009 Influenza Outbreak </h3>
+				<p> The area of each point is proportional to the number of new infections at a given location.</p>
+				<br><br>
+
+				<div class="animation-container">
+					<video width=100% controls>
+						<source src="documents/animations/movie_influenza.mp4" type="video/mp4">
+						Your browser does not support the video tag.
+					</video>
+				</div>
+
+			</div>
+
+			<div class="col-sm-1 sidenav"></div>
 		</div>
-		<br>
-		  
-		<p> <b> Randomised social links </b> </p>
-		<p> At the other extreme where social links are chosen independently of contact links, the disease is suppressed at a faster rate, due to the wider spreading of information across the lattice. However, during 'vaccine scares' where influential propaganda against vaccines is released into the social network, having social links traversing the entire network has more severe consequences. Communication technology is really a double-edged sword when it comes to suppression and eradication of vaccine-preventable diseases. </p>
-		<div class="animation-container-multiplex">
-		  <video width=100% controls>
-		  <source src="documents/animations/movie_equalSocial_sigma1.mp4" type="video/mp4">
-		  Your browser does not support the video tag.
-		  </video>
-	    </div>
-		<br><br><br><br><br>
-		
-		
-		<h3> Data Visualisation of the 2009 Influenza Outbreak </h3>
-		<p> The area of each point is proportional to the number of new infections at a given location.</p><br><br>
-		 
-		<div class="animation-container">
-		  <video width=100% controls>
-		  <source src="documents/animations/movie_influenza.mp4" type="video/mp4">
-		  Your browser does not support the video tag.
-		  </video>	
-		</div>
-			
-	  </div>
-	  
-	  <div class="col-sm-1 sidenav"></div>     
-    </div>
-  </div>
+	</div>
 
-  <footer class="container-fluid">
-  	<div class="col-sm-2"></div>
-  	<div class="col-sm-8">
-	  <a href="https://twitter.com/ThomasMBury" target="_blank"> <img src="images/twitter.png" class="icon"  ></a>&nbsp&nbsp&nbsp
-	  <a href="https://scholar.google.ca/citations?user=qAp4KBYAAAAJ&hl=en" target="_blank"> <img src="images/gscholar.jpg" class="icon"></a>&nbsp&nbsp&nbsp
-      <a href="https://github.com/thomasmbury/" target="_blank"><img src="images/github.svg" class="icon"></a>&nbsp&nbsp&nbsp
-      <a href="https://www.linkedin.com/in/thomas-bury/" target="_blank"> <img src="images/linkedin.png" class="icon"></a>
-    </div>
-    <div class="col-sm-2">
-    </div>	
-  </footer>
+	<footer class="container-fluid">
+		<div class="col-sm-2"></div>
+		<div class="col-sm-8">
+			<a href="https://twitter.com/ThomasMBury" target="_blank"> <img src="images/twitter.png"
+					class="icon"></a>&nbsp&nbsp&nbsp
+			<a href="https://scholar.google.ca/citations?user=qAp4KBYAAAAJ&hl=en" target="_blank"> <img
+					src="images/gscholar.jpg" class="icon"></a>&nbsp&nbsp&nbsp
+			<a href="https://github.com/thomasmbury/" target="_blank"><img src="images/github.svg"
+					class="icon"></a>&nbsp&nbsp&nbsp
+			<a href="https://www.linkedin.com/in/thomas-bury/" target="_blank"> <img src="images/linkedin.png"
+					class="icon"></a>
+		</div>
+		<div class="col-sm-2">
+		</div>
+	</footer>
 
 
 </body>
+
 </html>
